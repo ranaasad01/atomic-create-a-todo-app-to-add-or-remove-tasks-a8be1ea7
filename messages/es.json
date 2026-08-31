@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel de control",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse"
+  },
+  "hero": {
+    "login": {
+      "heading": "Bienvenido de vuelta a TodoApp",
+      "body": "Inicia sesión para continuar donde lo dejaste. Tus tareas te están esperando."
+    },
+    "signup": {
+      "heading": "Crea tu cuenta gratuita",
+      "body": "Únete a TodoApp y comienza a organizar tu día en segundos. Tus tareas, a tu manera — siempre privadas, siempre tuyas."
+    }
+  },
+  "loginPage": {
+    "formHeading": "Inicia sesión en tu cuenta",
+    "formBody": "Ingresa tu correo electrónico y contraseña para acceder a tu lista de tareas personal.",
+    "cta": "Iniciar sesión",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "noAccount": "¿Aún no tienes cuenta?",
+    "createAccount": "Crear una cuenta gratuita",
+    "emailNotConfirmed": "Tu correo electrónico no ha sido confirmado. Por favor, revisa tu bandeja de entrada.",
+    "resendConfirmation": "Reenviar correo de confirmación",
+    "resendSuccess": "Correo de confirmación enviado. Por favor, revisa tu bandeja de entrada.",
+    "genericError": "Correo electrónico o contraseña inválidos. Por favor, intenta de nuevo."
+  },
+  "signupPage": {
+    "formHeading": "Comienza — es gratis",
+    "formBody": "Ingresa tus datos a continuación para crear tu cuenta. ¿Ya tienes una? Inicia sesión en su lugar.",
+    "cta": "Crear cuenta",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Confirmar contraseña",
+    "confirmPasswordPlaceholder": "••••••••",
+    "hasAccount": "¿Ya tienes una cuenta de TodoApp?",
+    "signIn": "Inicia sesión en tu cuenta",
+    "passwordMismatch": "Las contraseñas no coinciden. Por favor, intenta de nuevo.",
+    "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+    "genericError": "Algo salió mal. Por favor, intenta de nuevo."
+  },
+  "dashboardPage": {
+    "greeting": "Buenos días",
+    "taskInputHeading": "¿Qué necesita hacerse?",
+    "taskInputBody": "Escribe una tarea y presiona Enter o haz clic en Agregar — aparecerá en la parte superior de tu lista al instante.",
+    "addTaskCta": "Agregar tarea",
+    "taskInputPlaceholder": "p. ej. Revisar informe de presupuesto Q3…",
+    "taskListHeading": "Tus tareas",
+    "taskListBody": "Haz clic en la casilla para marcar una tarea como completada. Presiona el icono de papelera para eliminarla permanentemente. Las tareas completadas se muestran tachadas para que puedas ver tu progreso de un vistazo.",
+    "emptyHeading": "¡Ya estás al día!",
+    "emptyBody": "No hay tareas aquí aún. Añade tu primera tarea arriba y comienza a hacer progreso — un paso a la vez.",
+    "emptyCtaLabel": "Añade tu primera tarea",
+    "logoutLabel": "Cerrar sesión",
+    "deleteAriaLabel": "Eliminar tarea",
+    "toggleAriaLabel": "Alternar finalización de tarea",
+    "loadingTasks": "Cargando tus tareas…",
+    "errorLoadingTasks": "No se pudieron cargar las tareas. Por favor, actualiza la página."
+  },
+  "login": {
+    "confirmEmailBody": "Revisa tu bandeja de entrada para encontrar un enlace de confirmación. Haz clic en él para verificar tu correo y acceder a tus tareas.",
+    "confirmEmailTitle": "Confirma tu correo",
+    "divider": "o",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "errorEmailRequired": "El correo es obligatorio",
+    "errorGeneric": "Algo salió mal. Por favor, intenta de nuevo.",
+    "errorInvalidCredentials": "El correo o la contraseña son incorrectos",
+    "errorPasswordRequired": "La contraseña es obligatoria",
+    "errors": {
+      "emailNotConfirmed": "Correo no confirmado",
+      "emailNotConfirmedHint": "Revisa tu bandeja de entrada para encontrar un enlace de confirmación",
+      "invalidCredentials": "Correo o contraseña inválidos",
+      "unexpected": "Ocurrió un error inesperado"
+    },
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "form": {
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "hidePassword": "Ocultar contraseña",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPassword": "Mostrar contraseña",
+      "signingIn": "Iniciando sesión…",
+      "submit": "Iniciar sesión"
+    },
+    "heading": "Bienvenido de vuelta",
+    "hidePassword": "Ocultar",
+    "noAccount": "¿No tienes una cuenta?",
+    "orDivider": "o",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "resendEmail": "Reenviar correo de confirmación",
+    "resendLink": "Reenviar enlace",
+    "resendSending": "Enviando…",
+    "resendSent": "Enlace enviado",
+    "resendSuccess": "Correo de confirmación enviado",
+    "showPassword": "Mostrar",
+    "signUpLink": "Registrarse",
+    "signingIn": "Iniciando sesión…",
+    "subheading": "Inicia sesión para gestionar tus tareas",
+    "submitButton": "Iniciar sesión",
+    "trustNote": "Nunca compartimos tus datos",
+    "validation": {
+      "emailInvalid": "Por favor ingresa un correo válido",
+      "emailRequired": "El correo es obligatorio",
+      "passwordRequired": "La contraseña es obligatoria",
+      "passwordShort": "La contraseña debe tener al menos 8 caracteres"
+    }
+  },
+  "signUpRegister": {
+    "badge": "¿Eres nuevo?",
+    "confirmLabel": "Confirmar contraseña",
+    "confirmPlaceholder": "Confirma tu contraseña",
+    "emailLabel": "Correo",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "errors": {
+      "confirmRequired": "Por favor confirma tu contraseña",
+      "emailInvalid": "Por favor ingresa una dirección de correo válida",
+      "emailRequired": "El correo es obligatorio",
+      "generic": "Algo salió mal. Por favor intenta de nuevo.",
+      "passwordLength": "La contraseña debe tener al menos 8 caracteres",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "passwordRequired": "La contraseña es obligatoria"
+    },
+    "formSubtitle": "Comienza en segundos",
+    "formTitle": "Crea tu cuenta",
+    "goToLogin": "¿Ya tienes cuenta? Inicia sesión",
+    "hasAccount": "¿Tienes una cuenta?",
+    "heading": "Bienvenido a TaskFlow",
+    "hidePassword": "Ocultar contraseña",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "showPassword": "Mostrar contraseña",
+    "signInLink": "Inicia sesión aquí",
+    "strength": "Fortaleza de contraseña",
+    "subheading": "Organiza tus tareas, aumenta tu productividad",
+    "submit": "Crear cuenta",
+    "submitting": "Creando cuenta...",
+    "success": "¡Bienvenido!",
+    "successHint": "Tu cuenta está lista. Comienza a gestionar tus tareas ahora.",
+    "testimonial": {
+      "author": "Sarah Chen",
+      "quote": "TaskFlow transformó cómo gestiono mi trabajo diario. Simple, rápido y exactamente lo que necesitaba.",
+      "role": "Gerente de Producto"
+    }
+  },
+  "signup": {
+    "error": {
+      "alreadyRegistered": "Este correo electrónico ya está registrado",
+      "generic": "El registro falló. Por favor, intenta de nuevo."
+    },
+    "form": {
+      "confirmPasswordLabel": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "Vuelve a ingresar tu contraseña",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "hidePassword": "Ocultar",
+      "passwordHint": "Al menos 8 caracteres",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "Crea una contraseña segura",
+      "showPassword": "Mostrar",
+      "submit": "Registrarse",
+      "submitting": "Registrando...",
+      "termsNote": "Al registrarte, aceptas nuestros Términos de Servicio"
+    },
+    "heading": "Únete a TaskFlow",
+    "loginLink": "Inicia sesión",
+    "loginPrompt": "¿Ya eres miembro?",
+    "subheading": "Comienza a organizar tus tareas hoy",
+    "success": {
+      "loginLink": "Ir a iniciar sesión",
+      "message": "Revisa tu correo electrónico para verificar tu cuenta",
+      "title": "Cuenta creada exitosamente"
+    },
+    "validation": {
+      "confirmPasswordRequired": "Por favor, confirma tu contraseña",
+      "emailInvalid": "Ingresa una dirección de correo válida",
+      "emailRequired": "El correo electrónico es obligatorio",
+      "passwordMinLength": "La contraseña debe tener al menos 8 caracteres",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "passwordRequired": "La contraseña es obligatoria"
+    }
+  },
+  "login-form": [
+    "Email address — the address you registered with",
+    "Password — at least 8 characters",
+    "Forgot your password? Reset it via email"
+  ],
+  "sign-up-link": [
+    "No credit card required — sign up in under 30 seconds",
+    "Your tasks are private and scoped only to your account"
+  ],
+  "signup-form": [
+    "Email address — your unique login identifier, e.g. you@example.com",
+    "Password — at least 8 characters, mix of letters and numbers recommended",
+    "Confirm password — re-enter your password to make sure it matches",
+    "Create account — submits the form, validates all fields, and redirects you to your personal dashboard on success",
+    "Inline error messages appear immediately if an email is already in use or passwords do not match"
+  ],
+  "header-nav": [
+    "TodoApp wordmark — links back to /dashboard",
+    "Greeting: 'Good morning, {userName}' — displayed in muted-foreground beside the logo",
+    "Logout button — top-right corner, secondary variant, triggers session sign-out and redirects to /login"
+  ],
+  "task-input": [
+    "Text input — full-width, placeholder: 'e.g. Review Q3 budget report…', auto-focused on page load",
+    "Add Task button — primary variant, indigo background, disabled while input is empty or request is in flight",
+    "Inline loading spinner replaces button label while the task is being saved",
+    "Keyboard shortcut: pressing Enter inside the input submits the form"
+  ],
+  "task-list": [
+    "Task row — indigo checkbox on the left toggles is_complete; checked state applies line-through styling to the title",
+    "Task title — body text, foreground color when active, muted-foreground with strikethrough when complete",
+    "Delete button — danger icon button (trash icon) on the far right; shows a loading spinner while the delete request is pending",
+    "Row hover — accent tint (#e0e7ff) background transition on hover for clear interactivity feedback",
+    "Tasks sorted by created_at descending — newest tasks appear at the top of the list",
+    "Completed tasks sorted below active tasks within the same list — no separate tab needed",
+    "Each task card has a subtle 1 px border and 8 px radius consistent with the design system"
+  ],
+  "empty-state": [
+    "Centered SVG illustration — a clean, minimal clipboard with a small checkmark, rendered in indigo and slate tones",
+    "Headline: 'You're all caught up!' — h2 weight, foreground color",
+    "Subtext: 'Add your first task above and start making progress — one step at a time.' — body size, muted-foreground",
+    "Visible only when the authenticated user's task list is empty (zero rows returned from DB)"
+  ],
+  "logout": [
+    "Logout action clears the NextAuth.js session cookie and invalidates the server-side session",
+    "User is redirected to /login immediately after sign-out completes",
+    "Logout button is always visible in the header — no hidden menus or extra confirmation step required",
+    "Session expiry: unauthenticated requests to /dashboard are automatically redirected to /login via middleware"
+  ]
+}

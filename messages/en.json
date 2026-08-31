@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "login": "Sign In",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "login": {
+      "heading": "Welcome back to TodoApp",
+      "body": "Sign in to pick up right where you left off. Your tasks are waiting."
+    },
+    "signup": {
+      "heading": "Create your free account",
+      "body": "Join TodoApp and start organizing your day in seconds. Your tasks, your way — always private, always yours."
+    }
+  },
+  "login-form": [
+    "Email address — the address you registered with",
+    "Password — at least 8 characters",
+    "Forgot your password? Reset it via email"
+  ],
+  "sign-up-link": [
+    "No credit card required — sign up in under 30 seconds",
+    "Your tasks are private and scoped only to your account"
+  ],
+  "signup-form": [
+    "Email address — your unique login identifier, e.g. you@example.com",
+    "Password — at least 8 characters, mix of letters and numbers recommended",
+    "Confirm password — re-enter your password to make sure it matches",
+    "Create account — submits the form, validates all fields, and redirects you to your personal dashboard on success",
+    "Inline error messages appear immediately if an email is already in use or passwords do not match"
+  ],
+  "header-nav": [
+    "TodoApp wordmark — links back to /dashboard",
+    "Greeting: 'Good morning, {userName}' — displayed in muted-foreground beside the logo",
+    "Logout button — top-right corner, secondary variant, triggers session sign-out and redirects to /login"
+  ],
+  "task-input": [
+    "Text input — full-width, placeholder: 'e.g. Review Q3 budget report…', auto-focused on page load",
+    "Add Task button — primary variant, indigo background, disabled while input is empty or request is in flight",
+    "Inline loading spinner replaces button label while the task is being saved",
+    "Keyboard shortcut: pressing Enter inside the input submits the form"
+  ],
+  "task-list": [
+    "Task row — indigo checkbox on the left toggles is_complete; checked state applies line-through styling to the title",
+    "Task title — body text, foreground color when active, muted-foreground with strikethrough when complete",
+    "Delete button — danger icon button (trash icon) on the far right; shows a loading spinner while the delete request is pending",
+    "Row hover — accent tint (#e0e7ff) background transition on hover for clear interactivity feedback",
+    "Tasks sorted by created_at descending — newest tasks appear at the top of the list",
+    "Completed tasks sorted below active tasks within the same list — no separate tab needed",
+    "Each task card has a subtle 1 px border and 8 px radius consistent with the design system"
+  ],
+  "empty-state": [
+    "Centered SVG illustration — a clean, minimal clipboard with a small checkmark, rendered in indigo and slate tones",
+    "Headline: 'You're all caught up!' — h2 weight, foreground color",
+    "Subtext: 'Add your first task above and start making progress — one step at a time.' — body size, muted-foreground",
+    "Visible only when the authenticated user's task list is empty (zero rows returned from DB)"
+  ],
+  "logout": [
+    "Logout action clears the NextAuth.js session cookie and invalidates the server-side session",
+    "User is redirected to /login immediately after sign-out completes",
+    "Logout button is always visible in the header — no hidden menus or extra confirmation step required",
+    "Session expiry: unauthenticated requests to /dashboard are automatically redirected to /login via middleware"
+  ],
+  "loginPage": {
+    "formHeading": "Sign in to your account",
+    "formBody": "Enter your email and password to access your personal task list.",
+    "cta": "Sign in",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "noAccount": "Don't have an account yet?",
+    "createAccount": "Create a free account",
+    "emailNotConfirmed": "Your email address has not been confirmed. Please check your inbox.",
+    "resendConfirmation": "Resend confirmation email",
+    "resendSuccess": "Confirmation email sent. Please check your inbox.",
+    "genericError": "Invalid email or password. Please try again."
+  },
+  "signupPage": {
+    "formHeading": "Get started — it's free",
+    "formBody": "Enter your details below to create your account. Already have one? Sign in instead.",
+    "cta": "Create account",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "••••••••",
+    "hasAccount": "Already have a TodoApp account?",
+    "signIn": "Sign in to your account",
+    "passwordMismatch": "Passwords do not match. Please try again.",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "dashboardPage": {
+    "greeting": "Good morning",
+    "taskInputHeading": "What needs to get done?",
+    "taskInputBody": "Type a task and press Enter or click Add — it lands at the top of your list instantly.",
+    "addTaskCta": "Add Task",
+    "taskInputPlaceholder": "e.g. Review Q3 budget report…",
+    "taskListHeading": "Your Tasks",
+    "taskListBody": "Click the checkbox to mark a task done. Hit the trash icon to remove it for good. Completed tasks are shown with a strikethrough so you can see your progress at a glance.",
+    "emptyHeading": "You're all caught up!",
+    "emptyBody": "No tasks here yet. Add your first task above and start making progress — one step at a time.",
+    "emptyCtaLabel": "Add your first task",
+    "logoutLabel": "Log out",
+    "deleteAriaLabel": "Delete task",
+    "toggleAriaLabel": "Toggle task completion",
+    "loadingTasks": "Loading your tasks…",
+    "errorLoadingTasks": "Failed to load tasks. Please refresh the page."
+  },
+  "login": {
+    "confirmEmailBody": "Check your inbox for a confirmation link. Click it to verify your email and access your tasks.",
+    "confirmEmailTitle": "Confirm your email",
+    "divider": "or",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "errorEmailRequired": "Email is required",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorInvalidCredentials": "Email or password is incorrect",
+    "errorPasswordRequired": "Password is required",
+    "errors": {
+      "emailNotConfirmed": "Email not confirmed",
+      "emailNotConfirmedHint": "Check your inbox for a confirmation link",
+      "invalidCredentials": "Invalid email or password",
+      "unexpected": "An unexpected error occurred"
+    },
+    "forgotPassword": "Forgot password?",
+    "form": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "forgotPassword": "Forgot password?",
+      "hidePassword": "Hide password",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "showPassword": "Show password",
+      "signingIn": "Signing in…",
+      "submit": "Sign in"
+    },
+    "heading": "Welcome back",
+    "hidePassword": "Hide",
+    "noAccount": "Don't have an account?",
+    "orDivider": "or",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "resendEmail": "Resend confirmation email",
+    "resendLink": "Resend link",
+    "resendSending": "Sending…",
+    "resendSent": "Link sent",
+    "resendSuccess": "Confirmation email sent",
+    "showPassword": "Show",
+    "signUpLink": "Sign up",
+    "signingIn": "Signing in…",
+    "subheading": "Sign in to manage your tasks",
+    "submitButton": "Sign in",
+    "trustNote": "We never share your data",
+    "validation": {
+      "emailInvalid": "Please enter a valid email",
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordShort": "Password must be at least 8 characters"
+    }
+  },
+  "signUpRegister": {
+    "badge": "New here?",
+    "confirmLabel": "Confirm password",
+    "confirmPlaceholder": "Confirm your password",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "errors": {
+      "confirmRequired": "Please confirm your password",
+      "emailInvalid": "Please enter a valid email address",
+      "emailRequired": "Email is required",
+      "generic": "Something went wrong. Please try again.",
+      "passwordLength": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords don't match",
+      "passwordRequired": "Password is required"
+    },
+    "formSubtitle": "Get started in seconds",
+    "formTitle": "Create your account",
+    "goToLogin": "Already have an account? Sign in",
+    "hasAccount": "Have an account?",
+    "heading": "Welcome to TaskFlow",
+    "hidePassword": "Hide password",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "showPassword": "Show password",
+    "signInLink": "Sign in here",
+    "strength": "Password strength",
+    "subheading": "Organize your tasks, boost your productivity",
+    "submit": "Create account",
+    "submitting": "Creating account...",
+    "success": "Welcome aboard!",
+    "successHint": "Your account is ready. Start managing your tasks now.",
+    "testimonial": {
+      "author": "Sarah Chen",
+      "quote": "TaskFlow transformed how I manage my daily work. Simple, fast, and exactly what I needed.",
+      "role": "Product Manager"
+    }
+  },
+  "signup": {
+    "error": {
+      "alreadyRegistered": "This email is already registered",
+      "generic": "Registration failed. Please try again."
+    },
+    "form": {
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "hidePassword": "Hide",
+      "passwordHint": "At least 8 characters",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a strong password",
+      "showPassword": "Show",
+      "submit": "Sign up",
+      "submitting": "Signing up...",
+      "termsNote": "By signing up, you agree to our Terms of Service"
+    },
+    "heading": "Join TaskFlow",
+    "loginLink": "Sign in",
+    "loginPrompt": "Already a member?",
+    "subheading": "Start organizing your tasks today",
+    "success": {
+      "loginLink": "Go to login",
+      "message": "Check your email to verify your account",
+      "title": "Account created successfully"
+    },
+    "validation": {
+      "confirmPasswordRequired": "Please confirm your password",
+      "emailInvalid": "Enter a valid email address",
+      "emailRequired": "Email is required",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords don't match",
+      "passwordRequired": "Password is required"
+    }
+  }
+}
